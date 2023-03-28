@@ -5,7 +5,7 @@ on: [push, pull_request]
 env:
   DATABASE_URL: "https://fake.com"
 
-job:
+jobs:
   build:
     runs-on: ubuntu-latest
 
